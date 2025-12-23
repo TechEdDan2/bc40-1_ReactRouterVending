@@ -17,6 +17,7 @@ This project is a simple vending machine application built using React and Vite,
 - Browse a list of vending machine items
 - View item details
 - Navigate between different pages using React Router
+- use of dynamic routing for snack types (partially implemented)
 
 ## Technologies Used
 - React

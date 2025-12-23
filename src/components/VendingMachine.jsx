@@ -17,6 +17,7 @@ const VendingMachine = () => {
                     <Route path="/chips" element={<Chips />} />
                     <Route path="/candy" element={<Candy />} />
                     <Route path="/snacks/:snackType?" element={<Snacks />} /> //Refactor to clean up code
+                    <Route path="*" element={<h2>404: Page Not Found</h2>} />
                 </Routes>
             </Router>
         </>
